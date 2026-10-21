@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screen_padding"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/tvDetailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_title"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <ImageView
+        android:id="@+id/ivStudent"
+        android:layout_width="@dimen/student_photo_size"
+        android:layout_height="@dimen/student_photo_size"
+        android:layout_below="@id/tvDetailTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/photo_description"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/ivStudent"
+        android:layout_alignTop="@id/ivStudent"
+        android:layout_marginStart="@dimen/element_margin"
+        android:textSize="@dimen/subtitle_size"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary" />
+
+    <TextView
+        android:id="@+id/tvSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvStudentName"
+        android:layout_alignStart="@id/tvStudentName"
+        android:layout_marginTop="@dimen/element_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/text_primary" />
+
+    <TextView
+        android:id="@+id/tvGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSubject"
+        android:layout_alignStart="@id/tvStudentName"
+        android:layout_marginTop="@dimen/element_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/text_primary" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/btn_back" />
+
+</RelativeLayout>

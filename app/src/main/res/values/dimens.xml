@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="element_margin">12dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="subtitle_size">18sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="student_photo_size">80dp</dimen>
+</resources>

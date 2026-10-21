@@ -1,0 +1,25 @@
+<resources>
+    <string name="welcome_text">Привет, %1$s</string>
+    <string name="app_name">My Group</string>
+    <string name="subject_value">Предмет: %1$s</string>
+    <string name="grade_value">Оценка: %1$d</string>
+
+    <string name="main_title">Портал группы</string>
+    <string name="main_subtitle">Введите своё имя</string>
+    <string name="hint_name">Ваше имя</string>
+    <string name="btn_open_students">Открыть список</string>
+    <string name="btn_clear">Очистить</string>
+
+    <string name="list_title">Список студентов</string>
+    <string name="student_1">Ален Нургуль</string>
+    <string name="student_2">Лебедев Руслан</string>
+    <string name="student_3">Диана Серикова</string>
+
+    <string name="detail_title">Информация о студенте</string>
+    <string name="subject_label">Предмет:</string>
+    <string name="grade_label">Оценка:</string>
+    <string name="subject_mobile">Мобильная разработка</string>
+    <string name="btn_back">Назад</string>
+
+    <string name="photo_description">Фото студента</string>
+</resources>

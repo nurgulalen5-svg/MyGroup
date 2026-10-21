@@ -1,0 +1,26 @@
+2026-10-21 12:49:12.669 MainActivity D onCreate
+2026-10-21 12:49:12.683 MainActivity D onStart
+2026-10-21 12:49:12.689 MainActivity D onResume
+
+2026-10-21 12:50:07.930 MainActivity I Открыт список студентов
+2026-10-21 12:50:07.970 MainActivity D onPause
+
+2026-10-21 12:50:08.158 StudentListActivity D onCreate
+2026-10-21 12:50:08.161 StudentListActivity D onStart
+2026-10-21 12:50:08.162 StudentListActivity D onResume
+2026-10-21 12:50:09.281 MainActivity D onStop
+
+2026-10-21 12:50:14.308 StudentListActivity I Выбран студент: Ален Нургуль
+2026-10-21 12:50:14.365 StudentListActivity D onPause
+
+2026-10-21 12:50:14.477 StudentDetailActivity D onCreate
+2026-10-21 12:50:14.479 StudentDetailActivity I Открыта карточка студента: Ален Нургуль
+2026-10-21 12:50:14.482 StudentDetailActivity D onStart
+2026-10-21 12:50:14.484 StudentDetailActivity D onResume
+
+2026-10-21 12:50:17.867 StudentDetailActivity I Нажата кнопка Назад
+2026-10-21 12:50:17.892 StudentDetailActivity D onPause
+2026-10-21 12:50:17.956 StudentListActivity D onStart
+2026-10-21 12:50:17.956 StudentListActivity D onResume
+2026-10-21 12:50:18.576 StudentDetailActivity D onStop
+2026-10-21 12:50:18.581 StudentDetailActivity D onDestroy
